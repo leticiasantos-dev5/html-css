@@ -1,0 +1,61 @@
+@charset "UTF-8"; /* Define a codificação de caracteres como UTF-8 */
+
+body {
+    /* Define um fundo com um degradê de cores suaves e fixa o background */
+    background-image: linear-gradient(to right, #45C4B0 10%, #9AEBA3, #DAFDBA);
+    background-attachment: fixed;
+}
+
+main {
+    /* Configura o fundo branco do conteúdo principal */
+    background-color: white;
+    /* Arredonda as bordas do bloco */
+    border-radius: 20px;
+    /* Adiciona uma sombra ao bloco para destacar */
+    box-shadow: 5px 5px 15px;
+    /* Define a largura do bloco */
+    width: 600px;
+    /* Adiciona espaçamento interno */
+    padding: 10px;
+    /* Centraliza o conteúdo na página */
+    margin: auto;
+}
+
+h1 {
+    /* Define a cor do título principal */
+    color: #034161;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Adiciona uma sombra ao texto para realce */
+    text-shadow: 1px 1px 2px #0041618a;
+    /* Define uma fonte serifada para o título */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    /* Centraliza o subtítulo */
+    text-align: center;
+    /* Define a cor preta */
+    color: black;
+    /* Adiciona uma sombra leve ao texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+}
+
+p {
+    /* Justifica o texto dos parágrafos */
+    text-align: justify;
+    /* Define uma fonte sans-serif para facilitar a leitura */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    /* Centraliza imagens dentro de um bloco */
+    margin: auto;
+}
+
+li {
+    /* Justifica o texto dos itens de lista */
+    text-align: justify;
+    /* Usa a mesma fonte dos parágrafos */
+    font-family: Arial, Helvetica, sans-serif;
+}

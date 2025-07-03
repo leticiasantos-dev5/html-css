@@ -1,0 +1,31 @@
+@charset "UTF-8"; /*OBRIGATORIO ESSE TERMO NA CSS*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%; */ /*FONTE*/
+}
+body{
+    background-image: linear-gradient(to right, #FFCFBF, #6EE0D9); /*FUNDO GRADIENTE DA PALETA*/
+}
+
+main{ background-color: white; /*COR DE FUNDO*/
+    border-radius: 20px; /*BORDA ARRENDONDADA*/
+    box-shadow: 5px 5px 15px #008d84be; /*SOMBRA PEGAR A COR MAIS ESCURA DA PALETA*/
+    width: 600px; /*QUADRADO AJEITADINHO*/
+    padding: 10px; /*ESPAÇO NAS BORDAS*/
+    margin:auto; /*TEXTO NO MEIO*/
+}
+
+h1{ color: #FF6B95;
+    text-align: center; /*TITULO NO MEIO*/
+    text-shadow: 1px 1px 2px #943d56ce; /*SOMBRA NO TÍTULO*/
+
+}
+
+h2{ color: #00A398;
+
+}
+
+p{
+    text-align: justify; /*TEXTO AJEITADINHO*/
+}
