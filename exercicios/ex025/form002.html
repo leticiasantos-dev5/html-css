@@ -7,14 +7,16 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="isu">Usuário:</label>
-            <input type="text" name="usu" id="isu">
+
+            <input type="text" name="usu" id="isu" required minlength="5" maxlength="30" size="10" placeholder="Digite seu nome" autocomplete="username" > 
+            <!--campo obrigatorio required, e min e max é a quantidade de letras que deve ter, size o tamanho da caixa, placeholder a dica da caixa-->
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen">
+            <input type="password" name="sen" id="isen"required minlength="8" size="8" placeholder="minímo 8 letras" autocomplete="current-password"> <!--current-password é para senha que já existe já new password é nova-->
 
         </p>
         <p>
