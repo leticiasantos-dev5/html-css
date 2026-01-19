@@ -26,12 +26,13 @@ header{
 }
 
 header > h1{
-    border: 2px dotted white;
+    /*border: 2px dotted white;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 3px black;
 }
 
 header > nav{
-    border: 2px dotted white; 
+    /*border: 2px dotted white; */
     
     display: flex;
     flex-flow: row nowrap;
@@ -63,4 +64,9 @@ main{
 
 
 }
+
+main > h2{
+    text-shadow: 2px 2px 3px black;
+}
+
 
